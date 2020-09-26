@@ -1,0 +1,17 @@
+.grid {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(16, 1em);
+    grid-template-rows: repeat(16, 1em);
+    justify-content: center;
+}
+
+.square {
+    height: 1em;
+    width: 1em;
+    border: thin solid black;
+}
+
+.square:hover {
+    background: gray;
+}
