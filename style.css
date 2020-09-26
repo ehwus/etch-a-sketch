@@ -11,7 +11,3 @@
     width: 1em;
     border: thin solid black;
 }
-
-.square:hover {
-    background: gray;
-}
