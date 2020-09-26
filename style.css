@@ -1,3 +1,7 @@
+* {
+    background-color: lightblue;
+}
+
 .grid {
     margin-top: 5em;
     display: grid;
@@ -10,4 +14,22 @@
     height: 1em;
     width: 1em;
     border: thin solid black;
+    background: white;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.reset button {
+    background: pink;
+    border: thin solid black;
+    padding: 10px;
+}
+
+.reset button:hover {
+    cursor: pointer;
+    opacity: 70%;
 }
