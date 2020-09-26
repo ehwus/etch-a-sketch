@@ -25,11 +25,11 @@ function enableGrid() {
 // reset the grid
 function resetGrid() {
     GRID.innerHTML = "";
-    buildGrid(16);
+    buildGrid(32);
 }
 
 // MAIN
-buildGrid(16)
+buildGrid(32)
 // listen for reset
 reset.addEventListener("click", function() {
     resetGrid();
